@@ -1,5 +1,5 @@
 {
-  "name": "crc",
+  "name": "crc-ts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alexander-Korotckevich/CRC.git"
+    "url": "git+https://github.com/Alexander-Korotckevich/crc-ts.git"
   },
   "author": {
     "name": "Alexander Korotkevich",
@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Alexander-Korotckevich/CRC/issues"
+    "url": "https://github.com/Alexander-Korotckevich/crc-ts/issues"
   },
-  "homepage": "https://github.com/Alexander-Korotckevich/CRC"
+  "homepage": "https://github.com/Alexander-Korotckevich/crc-ts"
 }
