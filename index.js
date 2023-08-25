@@ -1,8 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const COMPONENT_NAME = process.argv[2];
+const COMPONENT_NAME = process.argv[2] || "Component";
+const PATH_ARG = process.argv[3] || '';
 
-const PATH = path.join(path.resolve(__dirname), COMPONENT_NAME);
+const PATH = path.join(path.resolve(__dirname), PATH_ARG, COMPONENT_NAME);
 
 const COMPONENT_PATH = path.join(PATH, `${COMPONENT_NAME}.tsx`);
 const COMPONENT_DATA = `\n\nexport function ${COMPONENT_NAME}() {\n  return (\n\n  );\n}`;
