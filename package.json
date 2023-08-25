@@ -13,6 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/Alexander-Korotckevich/crc-ts.git"
   },
+  "keywords": [
+    "react",
+    "create-react-component",
+    "TypeScript",
+    "Styled components"
+  ],
   "author": {
     "name": "Alexander Korotkevich",
     "email": "i@as-korotkevich.ru"
