@@ -1,0 +1,22 @@
+{
+  "name": "crc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-Korotckevich/CRC.git"
+  },
+  "author": {
+    "name": "Alexander Korotkevich",
+    "email": "i@as-korotkevich.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alexander-Korotckevich/CRC/issues"
+  },
+  "homepage": "https://github.com/Alexander-Korotckevich/CRC"
+}
