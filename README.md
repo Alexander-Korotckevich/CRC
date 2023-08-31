@@ -10,10 +10,10 @@ With [npm](https://npmjs.org/) installed, run
 npm install -g crc-ts
 ```
 
-Then you can generate default directory with React component:
+Then you can generate React component:
 
 ```
-crc-ts
+crc-ts ReactComponentName
 ```
 
 ## API
@@ -22,16 +22,41 @@ crc-ts
 crc-ts [component-name] [path]
 ```
 
-### Example
+- Default component name is `Component`.
+- Default path value is `./src/components`.
 
-`crc-ts ReactComponent ./src` will generate the following:
+### Example
+Result of `crc-ts`:
 
 ```
 |-- /src
-    |-- /ReactComponent
-        |-- ReactComponent.tsx
-        |-- index.ts
-        |-- styles.ts
+    |--/components
+        |-- /Component
+            |-- Component.tsx
+            |-- index.ts
+            |-- styles.ts
+```
+
+Result of `crc-ts ExampleComponentName`:
+
+```
+|-- /src
+    |--/components
+        |-- /ExampleComponentName
+            |-- ExampleComponentName.tsx
+            |-- index.ts
+            |-- styles.ts
+```
+
+Result of `crc-ts ExampleComponentName ./src/example` will generate the following:
+
+```
+|-- /src
+    |--/example
+        |-- /ExampleComponentName
+            |-- ExampleComponentName.tsx
+            |-- index.ts
+            |-- styles.ts
 ```
 
 ## License

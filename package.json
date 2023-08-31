@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Alexander-Korotckevich/crc-ts/issues"
   },
-  "homepage": "https://github.com/Alexander-Korotckevich/crc-ts"
+  "homepage": "https://github.com/Alexander-Korotckevich/crc-ts",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }
