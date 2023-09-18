@@ -17,7 +17,12 @@
     "react",
     "create-react-component",
     "TypeScript",
-    "Styled components"
+    "Styled components",
+    "SASS",
+    "SCSS",
+    "LESS",
+    "STYLUS",
+    "CSS"
   ],
   "author": {
     "name": "Alexander Korotkevich",
