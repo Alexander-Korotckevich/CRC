@@ -32,6 +32,7 @@ const getStyles = (componentName, stylesFlag) => {
         process.exit();
       } else {
         stylesData = `import styled from 'styled-components';\n`;
+        componentImportData = `import * as S from './styles';`;
       }
       break;
   }
